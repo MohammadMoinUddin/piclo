@@ -1,0 +1,410 @@
+/*
+ Theme Name: piclo
+ author:
+ author url:
+ descrition:
+ tag:
+
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	line-height: 120%;
+}
+body{
+	font-size: 15px;
+	/*font-family: 'Open Sans', sans-serif;*/
+	font-family: 'Raleway', sans-serif;
+	line-height: 28px;
+	background: #FFFFFF;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a,
+a:focus,
+a:hover{
+	text-decoration: none;
+	outline: none;
+	transition: all .35s ease-in-out;
+}
+img{
+	width: 10%
+	height:auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	line-height: 120%;
+}
+
+.spacing{
+	border-bottom: 2px solid #f1f1f1;
+}
+
+.mt-20{
+	margin-top: 20px;
+}
+
+.mt-30{
+	margin-top: 30px;
+}
+
+.mb-20{
+	margin-bottom: 20px;
+}
+
+.mb-30{
+	margin-bottom:30px;
+}
+
+.pd-20{
+	padding: 20px 0;
+}
+.pd-30{
+	padding: 30px 0;
+}
+.pd-90{
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+/*.......................
+        header-area
+..........................*/
+.header-area .navbar-brand{
+	font-size: 30px;
+	margin-left: 30px;
+	margin-right: 100px;
+	padding-top: 20px;
+	color: #000;
+}
+.header-area .navbar{
+	background: transparent;
+	padding-top: 10px;
+	border: none;
+	box-shadow: none;
+	font-size: 16px;
+	font-weight: 600;
+}
+.header-area .btn{
+	color: #FFFFFF;
+	font-weight: 700;
+	border: 1px solid #176509;
+	border-radius: 25px;
+	padding: 5px 30px;
+	background: #176509;
+}
+.header-area .btn:hover{
+	color: #176509;
+	background: #FFF;
+	border: 1px solid #176509;
+}
+
+/*.......................
+ 		welcome-text
+..........................*/
+.welcome-text{
+	background:url(images/pexels-photo-205316.jpg);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.welcome-text h1{
+	font-size: 40px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	color: #222222;
+	line-height: 120%;
+}
+.welcome-text p{
+	color: #999999;
+	font-size: 16px;
+}
+.navbar-right{
+	margin-right: 30px;
+}
+/*.......................
+	features-area
+..........................*/
+.features-area h2,
+.features-item h3{
+	color: #222222;
+}
+.features-area p,
+.features-area i,
+.features-item p{
+	color: #999999;
+}
+.features-caption{
+	margin-bottom: 50px;
+}
+.features-item{
+	margin-bottom: 60px;
+}
+.features-area i{
+	font-size: 40px;
+	font-weight: 300;
+}
+
+/*.......................
+		creative-area
+..........................*/
+.client-area img,
+.creative-area img{
+	width: 50%;
+	height: 333px;
+	display: block;
+	margin :0 auto;
+	border-radius: 50%
+}
+.creative-descreav span{
+	color: #222;
+}
+
+.creative-descreav p,
+.creative p{
+	color: #999;
+	font-size: 16px;
+}
+/*.......................
+		work-area
+..........................*/
+.img-bg{
+	background: url(images/portfolio1.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height:300px;
+	border:5px;
+	position: relative;
+	z-index: 1;
+	margin-bottom: 30px;
+}
+.img-bg:after{
+	content: '';
+	display: block;
+	position:absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: #222;
+	z-index: -1;
+	opacity: .5;
+
+}
+.img-text{
+	color: #FFFFFF;
+	padding: 20px 20px;
+	line-height: 130%;
+	opacity: 0;
+	transition: 1s
+}
+.img-text span{
+	font-size: 30px;
+}
+.img-text i{
+	color: #FFF;
+	font-size: 18px;
+	padding-top: 20px;
+}
+.img-text:hover{
+	opacity: 1;
+}
+
+/*..................
+	promote-area
+....................*/
+
+.promote-area{
+	background:url(images/pexels-photo-414171.jpeg);
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+}
+.contact-btn{
+	display:inline-block;
+	border: 1px solid#999;
+	padding: 5px 30px;
+	text-transform: capitalize;
+	border-radius: 25px;
+	margin-top: 90px;
+	background: #999; 
+}
+a.contact-btn{
+	color: #FFFFFF;
+}
+a.contact-btn:hover {
+	color:#FFFFFF;
+	background: transparent;
+}
+
+/*..................
+		client-area
+....................*/
+.skill-area, 
+.client-area {
+	line-height: 130%;
+}
+
+.testimonial {
+	padding: 30px 50px;
+}
+.testimonial p{
+	line-height: 150%;
+	font-size: 16px;
+	color: #999999;
+}
+.testimonial i{
+	font-size: 16px;
+	margin-top: 30px;
+	margin-right: 15px;
+	color: #999;
+}
+
+/*..................
+ 		blog-area
+....................*/
+.blog-caption{
+	margin-bottom: 90px;
+}
+.news-btn{
+	display:inline-block;
+	border: 1px solid#999;
+	padding: 5px 30px;
+	text-transform: capitalize;
+	border-radius: 25px;
+	float: right;
+	margin-top: 30px;
+	background: #999; 
+}
+.news-btn a{
+	color: #FFFFFF;
+}
+.news-btn:hover a{
+	color:#333;
+}
+.blog-post .spacing{
+	padding: 5px 0;
+}
+.blog-post span{
+	color: #999999;
+	font-size: 17px;
+}
+.blog-post p{
+	font-size: 130%;
+}
+.blog-post p a{
+	color: #222222;
+	display: block;
+	margin-top: 10px;
+}
+.blog-post:hover a{
+	color: #999999;
+}
+
+
+/*..................
+	contact-caption
+....................*/
+.contact-caption {
+	letter-spacing: 1px;
+	line-height: 120%;
+	color: #222222;
+}
+.contact-caption p{
+	color: #999999;
+}
+..contact-caption p> span{
+	font-size: 30px;
+}
+/*..................
+ 	contact-area
+....................*/
+.contact-area{
+
+}
+textarea,
+.form-control{
+	border: none;
+	box-shadow: none;
+	border-bottom: 2px solid #f3f3f3;
+	margin-bottom: 20px;
+	padding: 8px 10px;
+}
+textarea:focus,
+.form-control:focus {
+	border-color: transparent;
+	outline: 0;
+	border-bottom: 2px solid #f3f3f3;
+	box-shadow: 5px 5px 5px #f3f3f3;
+
+}
+textarea{
+	width: 100%;
+	/*box-shadow: 5px 5px 5px #f1f1f1;*/
+}
+.form-control::-moz-placeholder {
+	color: #999;
+	opacity: 1;
+	text-transform: capitalize;
+}
+.submit-btn {
+	color: #FFFFFF;
+	border: 1px solid #176509;
+	border-radius: 25px;
+	background: #176509;
+	padding: 4px 30px;
+	text-transform: capitalize;
+}
+
+.submit-btn:hover{
+	color: #176509;
+	background: #FFF;
+	border: 1px solid #176509;
+}
+.news-form {
+	margin-bottom:100px;
+}
+
+/*..................
+ footer-area
+....................*/
+.copyright a{
+	color: #999999;
+}
+.social-menu ul,
+.footer-menu ul{
+	margin: 0;
+	padding: 0;
+}
+.social-menu li,
+.footer-menu li{
+	display: inline-block;
+}
+.footer-menu li a{
+	display: block;
+	color: #999999;
+	font-size: 16px;
+	padding: 25px 10px;
+}
+.social-menu li a{
+	display: block;
+	color: #999999;
+	font-size: 16px;
+	padding: 0px 20px;
+}
+.footer-menu li:hover a,
+.social-menu li:hover a{
+	color: #222222;
+}
